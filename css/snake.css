@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('../fonts/slkscr.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('../fonts/noto-sans-tc.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: #0c0c0c;
+}
+
+h2 {
+    font-family: 'Silkscreen', 'Noto Sans TC';
+    color: whitesmoke;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+#canvas {
+    display: block;
+    margin: 25px auto;
+}
